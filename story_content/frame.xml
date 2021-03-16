@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x3949A0">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x0082F0">
   <layouts>
     <layout name="npnxnanbsnfns10111001101" font="Lato" controllayout="npnxnanbsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
     <layout name="pxabnsnfns10111001101" font="Lato" controllayout="pxabnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
@@ -50,7 +50,7 @@
         <options>
           <option name="flow" value="free" />
           <option name="wraplistitems" value="true" />
-          <option name="tooltips" value="true" />
+          <option name="tooltips" value="false" />
           <option name="autocollapse" value="true" />
           <option name="autonumber" value="false" />
           <option name="enableresultsicons" value="true" />
@@ -232,17 +232,6 @@
   </control_layouts>
   <colorschemes>
     <colorscheme name="npxnabnsnfns10111001101">
-      <color_group name="accessibility">
-        <group_colors>
-          <color name="focus_rect">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0xFFFF00" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-        </group_colors>
-      </color_group>
       <color_group name="HTML">
         <group_colors>
           <color name="htmlpage_bg_color">
@@ -450,7 +439,7 @@
           <color name="html_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x545454" alpha="100" stop="0" />
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1110,7 +1099,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x3949A0" alpha="100" stop="0" />
+                <color rgb="0x0082F0" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1186,52 +1175,6 @@
           </color>
         </group_colors>
       </color_group>
-      <color_group name="settings">
-        <group_colors>
-          <color name="panel_bg">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-          <color name="panel_shadow">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0x000000" alpha="20" stop="0" />
-              </colors>
-            </fill>
-          </color>
-          <color name="toggle_border">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0x919191" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-          <color name="toggle_thumb_off">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0x585858" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-          <color name="toggle_track_on">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-          <color name="toggle_track_off">
-            <fill type="linear" rotation="90">
-              <colors>
-                <color rgb="0xE8E8E8" alpha="100" stop="0" />
-              </colors>
-            </fill>
-          </color>
-        </group_colors>
-      </color_group>
       <color_group name="volume">
         <group_colors>
           <color name="panel_bg">
@@ -1280,6 +1223,63 @@
             <fill type="linear" rotation="90">
               <colors>
                 <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1392,68 +1392,63 @@
         <file bold="true" italic="false" />
       </files>
     </font>
-    <font name="Arial">
-      <files>
-        <file bold="false" italic="false" />
-      </files>
-    </font>
   </fonts>
   <sounds enabled="true" />
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6dUgj3FdaSt" displaytext="Workday Basics Manager Training" expand="true" type="slide">
+        <slidelink slideid="_player.6dUgj3FdaSt" displaytext="Workday Basics Manager Training" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6dUgj3FdaSt.5XhtFincAzP" displaytext="Welcome" expand="false" type="slide" />
             <slidelink slideid="_player.6dUgj3FdaSt.5pZtVLgQRXT" displaytext="Training Goals and Objectives" expand="false" type="slide" />
             <slidelink slideid="_player.6dUgj3FdaSt.6Viz8WGlcqN" displaytext="Workday Training Resources" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.670g0Rntnr8" displaytext="ORGANIZATIONS IN WORKDAY" expand="true" type="slide">
+        <slidelink slideid="_player.670g0Rntnr8" displaytext="ORGANIZATIONS IN WORKDAY" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.670g0Rntnr8.6HxfdhS1G3i" displaytext="Organizations in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.670g0Rntnr8.5wf2FNvwjlA" displaytext="Organizations in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.670g0Rntnr8.6C5uEAqmhyM" displaytext="Organizations in Workday" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6frA1lSgeXq" displaytext="SECURITY ROLES" expand="true" type="slide">
+        <slidelink slideid="_player.6frA1lSgeXq" displaytext="SECURITY ROLES" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6frA1lSgeXq.6r4pRRkjZCh" displaytext="Security Roles" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5WZ6AjqnZsJ" displaytext="BUSINESS PROCESSES" expand="true" type="slide">
+        <slidelink slideid="_player.5WZ6AjqnZsJ" displaytext="BUSINESS PROCESSES" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.5WZ6AjqnZsJ.6IL0AHeqloj" displaytext="Business Processes" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5ZW8MykDsu0" displaytext="INBOX MANAGEMENT " expand="true" type="slide">
+        <slidelink slideid="_player.5ZW8MykDsu0" displaytext="INBOX MANAGEMENT " expand="false" type="slide">
           <links>
             <slidelink slideid="_player.5ZW8MykDsu0.5chYkESYomU" displaytext="Inbox Management" expand="false" type="slide" />
             <slidelink slideid="_player.5ZW8MykDsu0.6GunUHgDNRv" displaytext="Inbox Management" expand="false" type="slide" />
             <slidelink slideid="_player.5ZW8MykDsu0.6WkJL0JiE8Q" displaytext="Inbox Management" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5Vf7d6eaGiG" displaytext="MY TEAM MANAGEMENT APPLICATION" expand="true" type="slide">
+        <slidelink slideid="_player.5Vf7d6eaGiG" displaytext="MY TEAM MANAGEMENT APPLICATION" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.5Vf7d6eaGiG.5Y4k8yYLSEr" displaytext="My Team Management Application" expand="false" type="slide" />
             <slidelink slideid="_player.5Vf7d6eaGiG.6G5WxeUXT8d" displaytext="My Team Management Application" expand="false" type="slide" />
             <slidelink slideid="_player.5Vf7d6eaGiG.6bTMzjaI0BX" displaytext="My Team Management Application" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6LIMgcrIDtF" displaytext="TEAM PERFORMANCE APPLICATION" expand="true" type="slide">
+        <slidelink slideid="_player.6LIMgcrIDtF" displaytext="TEAM PERFORMANCE APPLICATION" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6LIMgcrIDtF.6VviX70eHbn" displaytext="Team Performance Application" expand="false" type="slide" />
             <slidelink slideid="_player.6LIMgcrIDtF.6JKIOLuUhoa" displaytext="Team Performance Application" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.67IrnfSckDC" displaytext="VIEW EMPLOYEE DATA IN WORKDAY" expand="true" type="slide">
+        <slidelink slideid="_player.67IrnfSckDC" displaytext="VIEW EMPLOYEE DATA IN WORKDAY" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.67IrnfSckDC.5pVt6HpT4BM" displaytext="View Employee Data in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.67IrnfSckDC.5mv8mdzqYAC" displaytext="View Employee Data in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.67IrnfSckDC.6lZJsGOAhji" displaytext="View Employee Data in Workday" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6MKQbWa1rz5" displaytext="POSITION MANAGEMENT IN WORKDAY" expand="true" type="slide">
+        <slidelink slideid="_player.6MKQbWa1rz5" displaytext="POSITION MANAGEMENT IN WORKDAY" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6MKQbWa1rz5.6aETCwkshr2" displaytext="Position Management in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.6MKQbWa1rz5.5y0zR6D6X66" displaytext="Job Changes" expand="false" type="slide" />
@@ -1461,7 +1456,7 @@
             <slidelink slideid="_player.6MKQbWa1rz5.6idqIDBri85" displaytext="Headcount Report" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6NHbx3Xqcts" displaytext="DELEGATE TASKS IN WORKDAY" expand="true" type="slide">
+        <slidelink slideid="_player.6NHbx3Xqcts" displaytext="DELEGATE TASKS IN WORKDAY" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6NHbx3Xqcts.6kjrim2lQAg" displaytext="Delegate Tasks in Workday" expand="false" type="slide" />
             <slidelink slideid="_player.6NHbx3Xqcts.63dfro25wdN" displaytext="Delegate Tasks in Workday" expand="false" type="slide" />
@@ -2106,7 +2101,17 @@
           &lt;BulletPicture Size="0x0" /&gt;
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
-      &lt;Span Text="As a manager, you play an important role in business processes because you are typically an approver. Once a business process is complete, it will be moved to your Archive Inbox and marked as "&gt;
+      &lt;Span Text="As a manager, you play an important role in business processes because you are typically an approver. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="10.5" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Once a business process is complete, it will be moved to your Archive Inbox and marked as "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
       &lt;Span Text="successfully completed."&gt;
@@ -2870,7 +2875,47 @@
           &lt;BulletPicture Size="0x0" /&gt;
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
-      &lt;Span Text="In addition to all of the team performances processes under the Actions menu, you can view employee feedback by clicking the Feedback on My Team button. You will be able to have a full view of all the feedback received and given by the employees on your team. You will be able to view the "&gt;
+      &lt;Span Text="In addition to all of the team performances processes under the Actions menu, you can view employee feedback by clicking the Feedback on My Team button. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You will be able to have a full view of all the feedback received and given by the employees on your team. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You will be able to view the "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
       &lt;Span Text="Feedback"&gt;
@@ -2916,7 +2961,27 @@
           &lt;BulletPicture Size="0x0" /&gt;
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
-      &lt;Span Text="You can access an employee’s job profile multiple ways. If you have the "&gt;
+      &lt;Span Text="You can access an employee’s job profile in multiple ways. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you have the "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
       &lt;Span Text="My Team"&gt;
@@ -2928,7 +2993,27 @@
       &lt;Span Text="My Team Management"&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text=" dashboard, select an employee’s name to access their job profile. You can also access a job profile by navigating to your "&gt;
+      &lt;Span Text=" dashboard, select an employee’s name to access their job profile. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can also access a job profile by navigating to your "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
       &lt;Span Text="Org Chart"&gt;
@@ -3066,7 +3151,10 @@
           &lt;BulletPicture Size="0x0" /&gt;
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
-      &lt;Span Text="You can access plenty of information in addition to what is on the Summary tab, such as job, compensation, contact, career, performance and feedback information. &amp;#xA;"&gt;
+      &lt;Span Text="You can access plenty of information in addition to what is on the Summary tab, such as job, compensation, contact, career, performance and feedback information. "&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
         &lt;Style FontFamily="Arial" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" Elevation="Normal" DisplayCase="AsIs" LinkColor="#000000" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -3138,13 +3226,13 @@
       &lt;Span Text="Actions"&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text=" section and find and compare employee data under the View "&gt;
+      &lt;Span Text=" section and find and compare employee data under the "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text="section"&gt;
+      &lt;Span Text="View "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text=". &amp;#xA;"&gt;
+      &lt;Span Text="section. &amp;#xA;"&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -3221,7 +3309,13 @@
       &lt;Span Text="Once you click "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text="Transfer, Promote, Or Change Job "&gt;
+      &lt;Span Text="Transfer, Promote, "&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or "&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Change Job "&gt;
         &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
       &lt;/Span&gt;
       &lt;Span Text="from the "&gt;
